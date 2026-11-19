@@ -1,0 +1,9 @@
+en:
+  label_sound_level_distance: "Distance (%{unit})"
+  label_sound_level_spl: "Estimated SPL (dB)"
+  label_sound_level_change: "Change vs %{ref} %{unit} (dB)"
+  label_sound_level_caption: "%{source} dB at %{ref} %{unit}"
+  label_sound_level_note: "Free-field inverse-square estimate (L = Lref - 20 log10(d/dref)). Not a measurement; ground, wind and obstacles change real levels."
+  error_sound_level_invalid: "%{errors}"
+  error_sound_level_distance: "distance must be greater than 0"
+  error_sound_level_ref: "reference distance must be greater than 0"
